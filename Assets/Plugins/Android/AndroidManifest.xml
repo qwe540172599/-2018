@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sove.mysdk">
+
+    <!-- 这个android:label设置后，unity中ProductName就不生效了，记得改这个-->
+    6     <application android:label="MySDK">
+    7
+    8         <!-- 这个android:name的值必须为包名+类名-->
+    9         <activity android:name="com.sove.mysdk.SDKMainActivity">
+    10             <intent-filter>
+    11                 <action android:name="android.intent.action.MAIN" />
+    12                 <category android:name="android.intent.category.LAUNCHER" />
+    13             </intent-filter>
+    14
+    15             <!-- 这一行不能少，否则会闪退-->
+    16             <meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+    17         </activity>
+    18     </application>
+
+</manifest>

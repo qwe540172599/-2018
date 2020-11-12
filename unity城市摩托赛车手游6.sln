@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unity城市摩托赛车手游6", "Assembly-CSharp.csproj", "{2B2EBAF0-879C-D6EF-6B29-E32E00EC7137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unity城市摩托赛车手游6", "Assembly-CSharp-Editor.csproj", "{37140EBD-B36A-3781-3CC5-7F24FC8F2408}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B2EBAF0-879C-D6EF-6B29-E32E00EC7137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B2EBAF0-879C-D6EF-6B29-E32E00EC7137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B2EBAF0-879C-D6EF-6B29-E32E00EC7137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B2EBAF0-879C-D6EF-6B29-E32E00EC7137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37140EBD-B36A-3781-3CC5-7F24FC8F2408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37140EBD-B36A-3781-3CC5-7F24FC8F2408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37140EBD-B36A-3781-3CC5-7F24FC8F2408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37140EBD-B36A-3781-3CC5-7F24FC8F2408}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
